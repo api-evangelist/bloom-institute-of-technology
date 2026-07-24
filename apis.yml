@@ -1,9 +1,27 @@
 aid: bloom-institute-of-technology
 name: Bloom Institute of Technology
-description: 'Bloom Institute of Technology is a company surfaced as a portfolio company of gv and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Bloom Institute of Technology (formerly Lambda School) is an online coding
+  bootcamp founded in 2017 that trains learners for AI-driven tech careers through part-time
+  and full-time programs in Full Stack Web Development, Backend Development, and Data
+  Science, plus corporate "AI for Developer Productivity" training. It is known for its
+  income-share and deferred-tuition model ($0 upfront with a job-contingent payment plan)
+  and a tuition-refund guarantee. The company reports 4,000+ graduates since 2017. It
+  is a venture-backed consumer education company (backed by GV) and is tracked in the
+  API Evangelist network as a company profile; it does not currently publish a public
+  developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bloom-institute-of-technology/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/613baa7ad4f394142e65cb73/63052986d3eeaf5b3312dff9_home_opengraph.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Education
+- Coding Bootcamp
+- EdTech
+- Developer Training
+- Data Science
+- Career
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bloom-institute-of-technology-domain-security.yml
 - type: Website
-  url: http://bloomtech.com
+  url: https://www.bloomtech.com
+- type: Blog
+  url: https://www.bloomtech.com/blog
+- type: Pricing
+  url: https://www.bloomtech.com/tuition/options
+- type: TermsOfService
+  url: https://www.bloomtech.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bloomtech.com/privacy-policy
+- type: SignUp
+  url: https://app.bloomtech.com/apply
+- type: Login
+  url: https://bloomtech.okta.com
+- type: Support
+  url: https://www.bloomtech.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
