@@ -10,6 +10,17 @@ description: 'Bloom Institute of Technology (formerly Lambda School) is an onlin
   API Evangelist network as a company profile; it does not currently publish a public
   developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bloom-institute-of-technology/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
